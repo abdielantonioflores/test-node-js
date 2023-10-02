@@ -1,0 +1,28 @@
+{
+  "name": "test-node",
+  "version": "1.0.0",
+  "description": "challenge  de node js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./testing",
+    "start": "node  index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdielantonioflores/test-node-js.git"
+  },
+  "author": "Abdiel A Flores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdielantonioflores/test-node-js/issues"
+  },
+  "homepage": "https://github.com/abdielantonioflores/test-node-js#readme",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "sinon": "^16.0.0"
+  }
+}

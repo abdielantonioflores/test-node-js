@@ -178,6 +178,52 @@ The challenge is interesting and the points placed are playing everything necess
 Note: it would have been chevere that the challenge also focused a little more on the generation of apis and good practices of how to handle them with the different frameworks or with native modules of the language.
 
 
+## Pruebas unitarias 
+Para las pruebas unitarias se esta usando mocha con chai  a continuacion te explico como podrias ejecutarla o revisarlas:
+
+Antes debes clonarte el insumo y poder  descargar las dependencias usadas en este caso  con el comando 
+
+```js
+npm install 
+
+```
+
+las dependencias usadas son las siguientes
+
+
+```js
+ "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "sinon": "^16.0.0"
+  }
+
+```
+
+Para ejecutar las pruebas unitarias de la prueba se debe  ejecutar el comando 
+
+```js
+npm test
+
+```
+
+Aqui se ejecutaran 2 pruebas unitarias la de la funcion dorequest  y el file reading 
+
+
+
+##  Create a new function similar to getHash() but encrypt string “b” and “c”, and then compare output hash with the output of getHash() they need to be different.
+
+Se levanto una especie de ejemplo de codigo en el insumo inde.js el miso puedes ejecutar para saber el resultado de la siguiente manera 
+
+```js
+npm run start 
+
+```
+
+
 
 
 
